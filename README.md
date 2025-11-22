@@ -23,27 +23,5 @@
 8. Error Handling with user-friendly messages
 9. Loading States for better user experience
 
-# 🏗️ Project Structure
-
-task-manager/
-├── backend/                 # Spring Boot Application
-│   ├── src/main/java/
-│   │   └── com/taskmanager/
-│   │       ├── controller/  # REST Controllers
-│   │       ├── service/     # Business Logic
-│   │       ├── repository/  # Data Access Layer
-│   │       ├── entity/      # JPA Entities
-│   │       └── dto/         # Data Transfer Objects
-│   └── src/main/resources/
-│       └── application.properties
-│
-└── frontend/                # React Application
-    ├── src/
-    │   ├── components/      # React Components
-    │   ├── services/        # API Services
-    │   └── App.js           # Main Application
-    ├── public/
-    └── package.json
-
 
     
